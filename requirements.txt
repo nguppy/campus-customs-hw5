@@ -1,0 +1,6 @@
+# Campus Customs HW5 backend (Python 3.12+; developed on 3.14)
+fastmcp==4.0.11
+pydantic-ai-slim[openai,mcp]==2.54.0
+openai==3.24.0
+fastapi==0.142.2
+uvicorn[standard]==0.54.0

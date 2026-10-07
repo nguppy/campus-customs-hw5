@@ -1,0 +1,34 @@
+# Secrets / local environment (never commit a real .env)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node / Vite
+node_modules/
+frontend/dist/
+
+# Local tool settings (machine-specific paths)
+.claude/
+
+# SQLite temp files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Audit-trail write temp file
+output/*.tmp
